@@ -1,0 +1,46 @@
+
+body{
+	background-image: url("../img/grande.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.container{
+	background-color: rgba(202,165,132,0.5);
+}
+.bck-header{
+	width: 100%;
+	background-color: #F47A20;
+}
+.footer{
+	padding: 10px;
+}
+.nav-pills{
+	padding-top: 15px;
+	float: right;
+}
+.nav-pills > li > a{
+	color: #ffffff;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: #A85225;
+}
+.nav > li > a:hover,
+.nav > li > a:focus{
+	background-color: #A85225;
+}
+.mini-nav > li{
+	list-style: none;
+}
+.mini-nav > li > a{
+	text-decoration: none;
+}
+.footer{
+	background-color: #fff;
+}
+.col-md-4 > p , h1, h2, h3{
+	padding: 10px;
+	color: #ffffff;
+	text-align: justify;
+}
