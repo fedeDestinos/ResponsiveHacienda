@@ -35,26 +35,31 @@
 	<div class="bck-header">
 		<div class="row header clearfix">
 		<div class="col-md-3 column">
-			<img alt="Logo de Haciendatv" src="assets/img/newlogoHTV.png">
+			<img class="logo-main-Menú" alt="Logo de Haciendatv" src="assets/img/newlogoHTV.png">
 		</div>
 		<div class="col-md-9 column">
-			<ul class="nav nav-pills">
-				<li class="active">
-					<a href="index.html">Inicio</a>
-				</li>
-				<li>
-					<a href="#">Sobre el programa</a>
-				</li>
-				<li>
-					<a href="#">Capítulos</a>
-				</li>
-				<li>
-					<a href="#">Calendario</a>
-				</li>
-				<li>
-					<a href="#">Clasificados</a>
-				</li>
-			</ul>
+			<nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-Menú">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand hidden-md hidden-lg" href="#">Menú</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="main-Menú">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#">Sobre Haciendatv</a></li>
+                        <li><a href="#">Capítulos</a></li>
+                        <li><a href="#">Calendario</a></li>
+                        <li><a href="#">Clasificados</a></li>
+                        <li><a href="#">Contactenos</a></li>
+                    </ul>
+                </div> 
+        </nav>
 		</div>
 	</div>
 </div>	
