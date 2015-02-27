@@ -14,6 +14,7 @@
 	
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/fullcalendar.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--   [if lt IE 9]
@@ -26,10 +27,6 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
-  
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/scripts.js"></script>
 </head>
 <div class="container">
 	<div class="row bck-header clearfix">
@@ -38,113 +35,26 @@
 		</div>
 		<div class="col-sm-9 column">
 			<nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                 </button>
-                 <a class="navbar-brand hidden-md hidden-lg" href="#">Menú</a>
-             </div>
-             <div class="collapse navbar-collapse">
-                 <ul class="nav navbar-nav">
-                     <li class="active"><a href="#">Inicio</a></li>
-                     <li><a href="#">Sobre Haciendatv</a></li>
-                     <li><a href="#">Capítulos</a></li>
-                     <li><a href="#">Calendario</a></li>
-                     <li><a href="#">Vacaciones</a></li>
-                     <li><a href="#">Clasificados</a></li>
-                     <!--<li><a href="#">Contactenos</a></li> -->
-                 </ul>
-             </div> 
-        </nav>
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Menú</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Inicio</a></li>
+                  <li><a href="acerca-del-programa.html">Sobre Haciendatv</a></li>
+                  <li><a href="capitulos.html">Capítulos</a></li>
+                  <li><a href="calendario.html">Calendario</a></li>
+                  <li><a href="vacaciones.html">Vacaciones</a></li>
+                  <li><a href="http://www.clasificadoshaciendatv.com">Clasificados</a></li>
+               </ul>
+				</div>
+			</nav>
 	</div>
 </div>	
 <body>
-	<div class="row clearfix">
-		<div class="col-sm-12 column">
-			<div class="carousel slide" id="carousel-662896">
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#carousel-662896">
-					</li>
-					<li data-slide-to="1" data-target="#carousel-662896">
-					</li>
-					<li data-slide-to="2" data-target="#carousel-662896">
-					</li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item active">
-						<a href=""><img alt="" src="assets/img/capitulo49.jpg"></a>
-						<div class="carousel-caption">
-							<h4>
-								Capitulo 49
-							</h4>
-							<p>
-								Este Can es proveniente de las Islas Canarias, es un perro robusto, fuerte, con un carácter muy marcado.
-							</p>
-						</div>
-					</div>
-					<div class="item">
-						<img alt="" src="assets/img/ceniprotem1.jpg">
-						<div class="carousel-caption">
-							<!-- <h4>
-								Second Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p> -->
-						</div>
-					</div>
-					<div class="item">
-						<img alt="" src="assets/img/ceniprotem2.jpg">
-						<div class="carousel-caption">
-							<h4>
-								Anuncio
-							</h4>
-							<!-- <p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-							</p> -->
-						</div>
-					</div>
-				</div> <a class="left carousel-control" href="#carousel-662896" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-662896" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
-		</div>
-	</div>
 	<div class="row body-txt clearfix">
-		<div class="col-sm-4 column">
-			<h3>
-				Bienvenido a Haciendatv
-			</h3>
-			<p>
-				<strong>Haciendatv</strong> es un programa de televisión en donde usted podrá disfrutar desde su casa, un maravilloso recorrido por diversas fincas, paisajes, ferias ganaderas, topes, y por supuesto la mejor información y reportajes sobre ganado, caballos y perros.
-			</p>
-			<a href="#">Ver más...</a>
-		</div>
-		<div class="col-sm-4 column">
-			<embed class="ytb-body" src="http://www.youtube.com/embed/DncBBp8TlMg">
-			<h3>En el capítulo 49</h3>
-			<p>
-				<strong>Haciendatv</strong> fue hasta Santa Cruz, Guanacaste. Aquí la monta de toros se realiza de manera tradicional, con espuela de manera distinta a las corridas de la meseta central y le mostraremos un recuento de las montaderas de las Fiestas Típicas Nacionales Santa Cruz 2015.
-			</p>
-			<p>
-				Las deliciosas tortillas palmeadas son un platillo típico, reconocido en Guanacaste y en Santa Cruz son de las más apetecidas por los turistas y residentes del lugar, en nuestro programa le presentamos cómo preparar las más deliciosas tortillas palmeadas.
-			</p>
-			<a href="#">Ver más...</a>
-		</div>
-		<div class="col-sm-4 column">
-			<p>
-				
-			</p> <a href="#" class="btn btn-primary btn-lg" type="button">Amigo Haciendatv</a>
-			<p>
-				66
-			</p> 
-			<a href="#" class="btn btn-primary btn-lg" type="button">Boletín</a>
-		</div>
-	</div>
-	<div class="row clearfix">
 		<div class="col-sm-12 column">
-			<img class="img-horario" alt="horario de haciendatv" src="assets/img/horario-nuevo.jpg">
+			<div id="calendario"></div>
 		</div>
 	</div>
 	<div class="row footer clearfix">
@@ -156,43 +66,219 @@
 		</div>
 		<div class="col-sm-4 column">
 			<ul class="mini-nav">
-				<li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre Haciendatv</a></li>
-            <li><a href="#">Capítulos</a></li>
-            <li><a href="#">Calendario</a></li>
-            <li><a href="#">Clasificados</a></li>
-            <li><a href="#">Contactenos</a></li>
+				<li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca-del-programa.html">Sobre Haciendatv</a></li>
+            <li><a href="capitulos.html">Capítulos</a></li>
+            <li><a href="calendario.html">Calendario</a></li>
+            <li><a href="vacaciones.html">Vacaciones</a></li>
+            <li><a href="http://www.clasificadoshaciendatv.com">Clasificados</a></li>
 			</ul>
 		</div>
 		<div class="col-sm-4 column">
-			<ul>
+			<ul class="social">
 				<li>
-					Lorem ipsum dolor sit amet
+					<a href="https://www.facebook.com/Haciendatv" class="ir sprite facebook">Facebook</a>
 				</li>
 				<li>
-					Consectetur adipiscing elit
+					<a href="https://www.youtube.com/user/haciendatvcanal" class="ir sprite youtube">Youtube</a>
 				</li>
-				<!--<li>
-					Integer molestie lorem at massa
-				</li>
-				<li>
-					Facilisis in pretium nisl aliquet
-				</li>
-				<li>
-					Nulla volutpat aliquam velit
-				</li>
-				<li>
-					Faucibus porta lacus fringilla vel
-				</li>
-				<li>
-					Aenean sit amet erat nunc
-				</li>
-				<li>
-					Eget porttitor lorem
-				</li> -->
 			</ul>
 		</div>
 	</div>
 </div>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<script type="text/javascript" src='assets/js/fullcalendar.min.js'></script> 
+	<script>
+	        $(document).ready(function() {
+	            var date = new Date();
+	            var d = date.getDate();
+	            var m = date.getMonth();
+	            var y = date.getFullYear();
+	            $('#calendario').fullCalendar({
+	                theme: false,
+	                header: {
+	                    left: 'prev,next today', //ingresa los botones de navegacion de los meses
+	                    center: 'title',
+	                    right: 'month,agendaWeek,agendaDay' // agrega los botones de vistas(mes, semana o dia)
+	                },
+	                editable: false,
+	                events: [
+	                // Se acomoda en el siguiente orden: año(y), mes(m), dia(d), hora(H), minutos(mm)
+	                // los meses inician en cero: 0=ENE, 1=FEB .... etc.
+	                /*el verde es para actividades cortas al menos 2 dias*/ 
+	                /* El naranja es para festivales o ferias que duran mas de 4 dias, si son mas de 2 actividades en la misma semana se coloca el color celeste*/
+	                    {
+	                        title: 'Rodeo de Camara de ganaderos de San Carlos 2014-2015. Haga clic para conocer más ...',
+	                        start: new Date(y,2,1,10),
+	                        allDay: true,
+	                        url:'externos/rodeo-camara-ganaderos-sancarlos.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Rodeo de Camara de ganaderos de San Carlos 2014-2015. Haga clic para conocer más ...',
+	                        start: new Date(y,2,22,10),
+	                        allDay: true,
+	                        url:'externos/rodeo-camara-ganaderos-sancarlos.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Expo P.Z. Ganaderos Expocitores de Ganado Registrado. Haga clic para conocer más ...',
+	                        start: new Date(y,1,19),
+	                        end: new Date(y,2,2),
+	                        allDay: true,
+	                        url:'externos/expoPZ.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Los Populares del Cañero. Haga clic para conocer más ...',
+	                        start: new Date(y,1,2),
+	                        allDay: true,
+	                        url:'externos/Z1.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Fiestas Sabana Larga 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,0,30),
+	                        end: new Date(y,1,2),
+	                        allDay: true,
+	                        url:'externos/z2.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Fiestas Pueblo Nuevo de Rivas 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,0,24),
+	                        end: new Date(y,1,2),
+	                        allDay: true,
+	                        url:'externos/FiestasPuebloNuevoRivas.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Tope Aguas Zarcas de San Carlos. Haga clic para conocer más ...',
+	                        start: new Date(y,2,15,12),
+	                        end: new Date(y,2,15,19),
+	                        allDay: false,
+	                        url:'externos/Tope Agua Zarcas.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Tope Garrobín 2015, Esparza. Haga clic para conocer más ...',
+	                        start: new Date(y,2,7),
+	                        end: new Date(y,2,7),
+	                        allDay: true,
+	                        url:'externos/Tope Garrobin.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Tope Playas del Coco. Haga clic para conocer más ...',
+	                        start: new Date(y,1,1,12,30),
+	                        end: new Date(y,1,1,19),
+	                        allDay: false,
+	                        url:'externos/Tope Playas del Coco.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Cabalgata San Josecito de Cutris. Haga clic para conocer más ...',
+	                        start: new Date(y,2,31,11),
+	                        end: new Date(y,2,31,18),
+	                        allDay: false,
+	                        url:'externos/SanJosecito2015.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Baile GRATIS en Cutris. Haga clic para conocer más ...',
+	                        start: new Date(y,1,28,20),
+	                        end: new Date(y,1,28,23),
+	                        allDay: false,
+	                        url:'externos/SanJosecito2015.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Show del amor y la amistad, Asociación Canofila. Haga clic para conocer más ...',
+	                        start: new Date(y,1,22,20),
+	                        allDay: true,
+	                        url:'externos/showamoryamistadcanofila.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Gran Cabalgata Tobosi del Guarco. Haga clic para conocer más ...',
+	                        start: new Date(y,1,15,11),
+	                        end: new Date(y,1,15,17),
+	                        allDay: false,
+	                        url:'externos/cabalgata_tobosi2015.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Tope Festejos Populares Puriscal 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,1,15,12),
+	                        end: new Date(y,1,15,18),
+	                        allDay: false,
+	                        url:'externos/Tope_Puriscal2015.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Tope San Juan de Santa Cruz 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,1,22,12),
+	                        end: new Date(y,1,22,18),
+	                        allDay: false,
+	                        url:'externos/topegte.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Cabalgata Tradicional Bajo los Calvo, Acosta. Haga clic para conocer más ...',
+	                        start: new Date(y,1,22),
+	                        allDay: true,
+	                        url:'externos/bajoloscalvo_2015-1.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    },
+	                    {
+	                        title: 'Expo P.Z. 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,1,19),
+	                        end: new Date(y,2,2),
+	                        allDay: true,
+	                        url:'externos/expopz2015.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Fiestas de Verano Colinas 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,1,20),
+	                        end: new Date(y,1,23),
+	                        allDay: true,
+	                        url:'externos/colinas2015.jpg',
+	                        color:'orange',
+	                        textColor:'black'
+	                    },
+	                    {
+	                        title: 'Desfile de Mulas 2015. Haga clic para conocer más ...',
+	                        start: new Date(y,1,27),
+	                        allDay: true,
+	                        url:'externos/mulas_liberia_2015.jpg',
+	                        color:'green',
+	                        textColor:'white'
+	                    }
+	                ]
+	            });
+	            
+	        });
+
+	</script> 
 </body>
 </html>
